@@ -10,5 +10,6 @@ for i in str(input()) :
     if i in ["1", "7", "3", "5", "4", "0"] :
         ans += dic[i]
     else :
+        
         ans += i
 print(ans)
